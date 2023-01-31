@@ -3,9 +3,12 @@
   padding: 0px;
 }
 
-.welcome {
-  background-image: radial-gradient(#70fff3, #fff);
-
+.container {
+  /*  background-image: url(/img/bg.jpg); */
+  background-image: radial-gradient(#00fde82f, #ffffff52),
+    url(/img/bg.jpg);
+  background-position: center;
+  background-size: cover;
   height: 100vh;
   overflow: hidden;
   font-family: sans-serif;
@@ -114,5 +117,22 @@ ul li {
     opacity: 0;
     bottom: 90vh;
     border-radius: 50%;
+  }
+}
+
+/* responsive */
+@media (max-width: 1080px) {
+  .square li,
+  .circle li {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .square li,
+  .circle li {
+    width: 15px;
+    height: 15px;
   }
 }
