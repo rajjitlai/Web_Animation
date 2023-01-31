@@ -4,8 +4,8 @@
 }
 
 .welcome {
-  background-image: linear-gradient(#ff5722, #ffc107);
-  /* position: relative; */
+  background-image: radial-gradient(#70fff3, #fff);
+
   height: 100vh;
   overflow: hidden;
   font-family: sans-serif;
@@ -102,15 +102,15 @@ ul li {
   animation-delay: 8s;
 }
 
-@keyframes circle{
-  0%{
-    transform: scale(0) rotate(0deg); 
+@keyframes circle {
+  0% {
+    transform: scale(0) rotate(0deg);
     opacity: 1;
     bottom: 0;
     border-radius: 0;
   }
-  100%{
-    transform: scale(5) rotate(1000deg); 
+  100% {
+    transform: scale(5) rotate(1000deg);
     opacity: 0;
     bottom: 90vh;
     border-radius: 50%;
