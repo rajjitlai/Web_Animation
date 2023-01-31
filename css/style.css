@@ -18,8 +18,8 @@
   color: #fff;
 }
 
-hi {
-  color: #fff;
+h1 {
+  /* color: #fff; */
   position: absolute;
   top: 50%;
   left: 50%;
